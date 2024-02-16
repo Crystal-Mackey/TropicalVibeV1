@@ -1,0 +1,38 @@
+.hero-section {
+    width: 100vw;
+    height: 75vh; 
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem; /* Large text for the main heading */
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem; /* Subheading text size */
+    margin-bottom: 30px;
+  }
+  
+  .hero-btn {
+    padding: 10px 30px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #000; /* Button background color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-btn:hover {
+    background-color: #444; /* Button hover effect */
+  }
+  

@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import HeroSection from './components/HeroSection';
+import AboutUs from './components/AboutUs';
+import Services from './components/Services';
+import Gallery from './components/Gallery';
+import images from "./assets/images/images";
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <main>
+        <HeroSection />
+        <AboutUs />
+        <Services />
+        <section id="gallery">
+          <Gallery images={images} />
+        </section>
+        <footer>
+        <p>D MAGIC AUTO SPA AND DETAILING</p>
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {" "}
+          <a
+            href="https://www.google.com/maps/place/573+SW+Biltmore+St,+Port+St+Lucie,+FL+34983"
+            target="_blank"
+          >
+            573 SW Biltmore St, Port St Lucie, FL 34983
+          </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>
+          <a href="tel:+17722007271">772-200-7271</a>
+        </p>
+      </footer>
+      </main>
     </div>
   );
 }

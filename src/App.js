@@ -23,8 +23,7 @@ function App() {
         <p>
           {" "}
           <a
-            href="https://www.google.com/maps/place/573+SW+Biltmore+St,+Port+St+Lucie,+FL+34983"
-            target="_blank"
+            href="https://maps.app.goo.gl/PzaSLcwN9BNDnyv59"
           >
             573 SW Biltmore St, Port St Lucie, FL 34983
           </a>

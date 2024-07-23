@@ -5,6 +5,35 @@ html, body, #root {
   height: 100%;
 }
 
+.hero-section {
+  text-align: center;
+  padding: 20px;
+  background: black; /* Set background to black */
+  color: white; /* Set text color to white */
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between logos */
+  margin-bottom: 20px;
+}
+
+.hero-logo {
+  max-width: 150px; /* Adjust size as needed */
+  height: auto;
+}
+
+.hero-section h1 {
+  margin: 20px 0 10px;
+}
+
+.hero-section p {
+  margin: 0;
+}
+
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -45,14 +74,31 @@ html, body, #root {
   cursor: pointer;
 }
 
-footer {
-  background-color: #222;
+
+.gallery-footer-container {
+  background: url('../src/assets/tropical/beach.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#gallery {
   padding: 20px;
-  text-align: center;
   color: white;
 }
 
-footer a {
+.footer {
   color: white;
-  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  background: none; /* Remove background from footer to let container show through */
+}
+
+.footer-content {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay to make text readable */
+  padding: 10px;
+}
+
+.footer p {
+  margin: 0;
+  padding: 5px 0;
 }

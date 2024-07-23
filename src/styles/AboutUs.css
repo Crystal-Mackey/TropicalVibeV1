@@ -1,23 +1,22 @@
 .about-us {
-    background-color: #222; /* Dark background */
-    color: #fff; /* Light text */
-    padding: 40px 0;
-  }
-  
-  .about-us .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .about-us h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .about-us p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 10px;
-  }
-  
+  background-color: #000000;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 700; /* Thicker font weight */
+}
+
+p {
+  color: #666;
+  margin-bottom: 15px;
+  font-weight: 500; /* Thicker font weight */
+}

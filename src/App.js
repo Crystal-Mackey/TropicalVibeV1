@@ -6,6 +6,7 @@ import Services from './components/Services';
 import Gallery from './components/Gallery';
 import images from "./assets/images/images";
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer'; // Make sure Footer component is imported
 
 function App() {
   return (
@@ -14,24 +15,12 @@ function App() {
         <HeroSection />
         <AboutUs />
         <Services />
-        <section id="gallery">
-          <Gallery images={images} />
-        </section>
-        <footer>
-        <p>D MAGIC AUTO SPA AND DETAILING</p>
-
-        <p>
-          {" "}
-          <a
-            href="https://maps.app.goo.gl/PzaSLcwN9BNDnyv59"
-          >
-            573 SW Biltmore St, Port St Lucie, FL 34983
-          </a>
-        </p>
-        <p>
-          <a href="tel:+17722007271">772-200-7271</a>
-        </p>
-      </footer>
+        <div className="gallery-footer-container">
+          <section id="gallery">
+            <Gallery images={images} />
+          </section>
+          <Footer />
+        </div>
       </main>
     </div>
   );

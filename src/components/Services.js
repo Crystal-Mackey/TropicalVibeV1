@@ -1,4 +1,3 @@
-// src/components/Services.js
 import React from 'react';
 import '../styles/Services.css';
 
@@ -10,39 +9,38 @@ const Services = () => {
         <div className="services-content">
           <div className="services-section">
             <h3>Interior Detailing</h3>
-            <ul>
-              <li>Shampoo</li>
-              <li>Steam Cleaning</li>
-              <li>Odor Removal</li>
-            </ul>
+            <p>Shampoo</p>
+            <p>Steam Cleaning</p>
+            <p>Odor Removal</p>
           </div>
           <div className="services-section">
             <h3>Exterior Detailing</h3>
-            <ul>
-              <li>Basic Wash & Waxes</li>
-              <li>Machine Polish</li>
-              <li>Buff & Wax</li>
-            </ul>
+            <p>Basic Wash & Waxes</p>
+            <p>Machine Polish</p>
+            <p>Buff & Wax</p>
           </div>
           <div className="services-section">
             <h3>Specialty Services</h3>
-            <ul>
-              <li>Paint Corrections</li>
-              <li>Ceramic Coatings</li>
-              <li>Good Ol' Paint Enhancements</li>
-            </ul>
+            <p>Paint Corrections</p>
+            <p>Ceramic Coatings</p>
+            <p>Good Ol' Paint Enhancements</p>
           </div>
           <div className="services-section">
             <h3>We Service All Vehicles</h3>
-            <ul>
-              <li>Vehicle</li>
-              <li>Boat/Yacht</li>
-              <li>RV</li>
-              <li>Even Airplanes!</li>
-            </ul>
+            <p>Vehicle</p>
+            <p>Boat/Yacht</p>
+            <p>RV</p>
+            <p>Even Airplanes!</p>
           </div>
-          <p>With over 5 years of experience, we've worked alongside some of your favorite local detailers. Choose D-Magic Detailing for premium auto spa services that stand out.</p>
-          <p className="call-to-action">So why not call us if other detailers call on us too?</p>
+          <div className="services-section">
+            <h3>Tinting and Wraps</h3>
+            <p>Auto Tinting</p>
+            <p>Marine Tinting</p>
+            <p>Commercial Tinting</p>
+            <p>Residential Tinting</p>
+            <p>Aircraft Tinting</p>
+            <p>Our tinting services enhance privacy, reduce glare, and provide UV protection, while our wrapping services offer a unique and stylish look for your vehicle, boat, or building.</p>
+          </div>
         </div>
       </div>
     </section>

@@ -48,6 +48,10 @@ import decal47 from '../peakingmonster.png';
 import decal48 from '../playboybunny.png';
 import decal49 from '../snaponStrapOnparody.png';
 import decal50 from '../youareenoughmirror.png';
+import decal51 from '../miamidolphinlogo.png';
+import decal52 from '../NotAllWhoWanderAreLostCompass.png';
+import decal53 from '../SalmonWithMountainSceneInsideSilhouette.png';
+import decal54 from '../SnookWithStarsandPalmTrees.png';
 // Import other decals similarly
 
 const decals = [
@@ -99,9 +103,12 @@ const decals = [
   { id: 46, src: decal46, alt: 'words "hello beautiful" in cursive meant for rearview mirror or other mirrors', tags: ['hello beautiful', 'cursive', 'rearview mirror', 'mirror', 'decal', 'sticker', 'graphic', 'design', 'positive', 'uplifting'], backgroundColor: 'black', closeColor: 'white' },
   { id: 47, src: decal47, alt: 'eyes and fingers of a monster as if peaking out from under a blanket or edge', tags: ['monster', 'eyes', 'fingers', 'peeking', 'blanket', 'edge', 'decal', 'sticker', 'graphic', 'design', 'creature'], backgroundColor: 'white', closeColor: 'black' },
   { id: 48, src: decal48, alt: 'bunny from playboy bunny logo in white', tags: ['playboy', 'bunny', 'logo', 'white', 'decal', 'sticker', 'graphic', 'design', 'iconic', 'symbol', 'porn reference'], backgroundColor: 'black', closeColor: 'white' },
-  { id: 49, src: decal49, alt:'word "Strap-on" parodied in the style of "Snap-on" logo', tags: [], backgroundColor: 'black', closeColor: 'white'  },
-  { id: 50, src: decal50, alt: 'words "you are enough" in cursive meant for rearview mirror or other mirrors', tags: ['you are enough', 'cursive', 'rearview mirror', 'mirror', 'decal', 'sticker', 'graphic', 'design', 'positive', 'uplifting'], backgroundColor: 'black', closeColor: 'white' }
-
+  { id: 49, src: decal49, alt: 'word "Strap-on" parodied in the style of "Snap-on" logo', tags: ['strap-on', 'snap-on', 'parody', 'logo', 'decal', 'sticker', 'graphic', 'design', 'humor', 'novelty'], backgroundColor: 'black', closeColor: 'white' },
+  { id: 50, src: decal50, alt: 'words "you are enough" in cursive meant for rearview mirror or other mirrors', tags: ['you are enough', 'cursive', 'rearview mirror', 'mirror', 'decal', 'sticker', 'graphic', 'design', 'positive', 'uplifting'], backgroundColor: 'black', closeColor: 'white' },
+  { id: 51, src: decal51, alt: 'Miami Dolphins Sports Team Logo', tags: ['Miami Dolphins', 'sports team', 'logo', 'NFL', 'football', 'decal', 'sticker', 'graphic', 'design', 'team'], backgroundColor: 'black', closeColor: 'white' },
+  { id: 52, src: decal52, alt: 'Old Style Compass with words "Not All Who Wander Are Lost" in a circle around it', tags: ['compass', 'not all who wander are lost', 'circle', 'decal', 'sticker', 'graphic', 'design', 'adventure', 'exploration'], backgroundColor: 'black', closeColor: 'white' },
+  { id: 53, src: decal53, alt: 'Salmon Silhouette with mountain scene inside', tags: ['salmon', 'silhouette', 'mountain scene', 'decal', 'sticker', 'graphic', 'design', 'nature', 'wildlife', 'outdoor'], backgroundColor: 'black', closeColor: 'white' },
+  { id: 54, src: decal54, alt: 'Snook Silhouette with stars and palm trees in scene inside', tags: ['snook', 'silhouette', 'stars', 'palm trees', 'scene', 'decal', 'sticker', 'graphic', 'design', 'nature', 'tropical'], backgroundColor: 'white', closeColor: 'white' },
   // Add more decal objects here with the imported images and backgroundColor property
 ];
 

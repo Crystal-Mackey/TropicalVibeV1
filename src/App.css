@@ -80,21 +80,23 @@ html, body, #root {
   background-size: cover;
 }
 
+/* Main page gallery section */
 #gallery {
   padding: 20px;
   color: white;
+  background-color: black; /* Black background for the gallery */
 }
 
+/* Footer section */
 .footer {
+  background-color: black; /* Black background for the footer */
   color: white;
   text-align: center;
   padding: 20px;
   position: relative;
-  background: none; /* Remove background from footer to let container show through */
 }
 
 .footer-content {
-  background: rgba(0, 0, 0, 0.5); /* Dark overlay to make text readable */
   padding: 10px;
 }
 

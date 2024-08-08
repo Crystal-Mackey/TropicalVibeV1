@@ -5,7 +5,6 @@ import AboutUs from './components/AboutUs';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
 import Decals from './components/Decals';
-import Category from './components/Category';
 import images from "./assets/images/images";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -15,11 +14,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Navbar /> */}
+        <Navbar />
         <Routes>
           <Route path="/" element={<div><HeroSection /><AboutUs /><Services /><Gallery images={images} /></div>} />
-          {/* <Route path="/decals" element={<Decals />} />
-          <Route path="/decals/:category" element={<Category />} /> */}
+          <Route path="/decals" element={<Decals />} />
         </Routes>
         <Footer />
       </div>

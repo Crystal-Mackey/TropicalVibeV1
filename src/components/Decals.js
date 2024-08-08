@@ -1,25 +1,73 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import '../styles/Decals.css';
-
-const categories = [
-  { id: 1, name: 'Floral', image: 'path/to/floral.jpg' },
-  { id: 2, name: 'Animals', image: 'path/to/animals.jpg' },
-  // Add more categories as needed
-];
+import decals from '../assets/decals/JS/decalImports';
 
 const Decals = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [modalOpen, setModalOpen] = useState(false);
+  const [currentImage, setCurrentImage] = useState(null);
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
+  const openModal = (image) => {
+    setCurrentImage(image);
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+    setCurrentImage(null);
+  };
+
+  const filteredDecals = decals.filter(decal =>
+    decal.tags.some(tag =>
+      tag.toLowerCase().includes(searchTerm.toLowerCase())
+    ) || 
+    decal.alt.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className="decals">
-      <h1>Decal Categories</h1>
-      <div className="grid">
-        {categories.map(category => (
-          <Link to={`/decals/${category.name.toLowerCase()}`} key={category.id} className="card">
-            <img src={category.image} alt={category.name} />
-            <div className="card-title">{category.name}</div>
-          </Link>
+      <h1>Decal Gallery</h1>
+      <input
+        type="text"
+        placeholder="Search decals..."
+        value={searchTerm}
+        onChange={handleSearchChange}
+        className="search-bar"
+      />
+      <div className="gallery-grid">
+        {filteredDecals.map(decal => (
+          <div
+            key={decal.id}
+            className="gallery-item"
+            style={{ backgroundColor: decal.backgroundColor }}
+            onClick={() => openModal(decal)}
+          >
+            <img src={decal.src} alt={decal.alt} />
+          </div>
         ))}
       </div>
+      {modalOpen && currentImage && (
+        <div className="modal" onClick={closeModal}>
+          <div
+            className="modal-content"
+            style={{ backgroundColor: currentImage.backgroundColor }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <span
+              className="close"
+              onClick={closeModal}
+              style={{ color: currentImage.closeColor }}
+            >
+              &times;
+            </span>
+            <img src={currentImage.src} alt={currentImage.alt} />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

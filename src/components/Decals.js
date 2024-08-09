@@ -22,10 +22,7 @@ const Decals = () => {
   };
 
   const filteredDecals = decals.filter(decal =>
-    decal.tags.some(tag =>
-      tag.toLowerCase().includes(searchTerm.toLowerCase())
-    ) || 
-    decal.alt.toLowerCase().includes(searchTerm.toLowerCase())
+    decal.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
   return (

@@ -30,24 +30,33 @@
 .gallery-item {
   cursor: pointer;
   border: 2px solid black; /* Black border around each picture */
-  background-color: white; /* Add a background color for transparency */
   width: 150px; /* Ensure each item is a square */
   height: 150px; /* Ensure each item is a square */
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: inherit; /* Inherit the background color from the parent */
 }
 
 .gallery-item img {
   max-width: 100%;
   max-height: 100%;
-  object-fit: contain;
+  object-fit: contain; /* Ensure the image fits within the box without zooming */
   border-radius: 5px;
   transition: transform 0.2s;
 }
 
 .gallery-item:hover img {
-  transform: scale(1.05);
+  transform: scale(1.05); /* Slightly scale on hover */
+}
+
+
+.gallery-item[data-background="white"] {
+  background-color: white !important;
+}
+
+.gallery-item[data-background="black"] {
+  background-color: black !important;
 }
 
 .modal {

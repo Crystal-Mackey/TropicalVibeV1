@@ -108,7 +108,7 @@ const decals = [
   { id: 51, src: decal51, alt: 'Miami Dolphins Sports Team Logo', tags: ['Miami Dolphins', 'sports team', 'logo', 'NFL', 'football', 'decal', 'sticker', 'graphic', 'design', 'team'], backgroundColor: 'black', closeColor: 'white' },
   { id: 52, src: decal52, alt: 'Old Style Compass with words "Not All Who Wander Are Lost" in a circle around it', tags: ['compass', 'not all who wander are lost', 'circle', 'decal', 'sticker', 'graphic', 'design', 'adventure', 'exploration'], backgroundColor: 'white', closeColor: 'white' },
   { id: 53, src: decal53, alt: 'Salmon Silhouette with mountain scene inside', tags: ['salmon', 'silhouette', 'mountain scene', 'decal', 'sticker', 'graphic', 'design', 'nature', 'wildlife', 'outdoor'], backgroundColor: 'black', closeColor: 'white' },
-  { id: 54, src: decal54, alt: 'Snook Silhouette with stars and palm trees in scene inside', tags: ['snook', 'silhouette', 'stars', 'palm trees', 'scene', 'decal', 'sticker', 'graphic', 'design', 'nature', 'tropical'], backgroundColor: 'white', closeColor: 'white' },
+  { id: 54, src: decal54, alt: 'Snook Silhouette with stars and palm trees in scene inside', tags: ['snook', 'silhouette', 'stars', 'palm trees', 'scene', 'decal', 'sticker', 'graphic', 'design', 'nature', 'tropical'], backgroundColor: 'white', closeColor: 'black' },
   // Add more decal objects here with the imported images and backgroundColor property
 ];
 

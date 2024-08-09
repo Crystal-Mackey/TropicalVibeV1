@@ -35,7 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: inherit; /* Default to inherit for unknown background */
+  background-color: inherit;
 }
 
 .gallery-item[data-background="white"] {
@@ -105,11 +105,15 @@
 }
 
 @media (max-width: 767px) { /* Mobile-specific styles */
+  .gallery-item {
+    background-color: unset !important; /* Clear any inherited styles */
+  }
+
   .gallery-item[data-background="white"] {
-    background-color: white;
+    background-color: white !important; /* Force white background */
   }
 
   .gallery-item[data-background="black"] {
-    background-color: black;
+    background-color: black !important; /* Force black background */
   }
 }

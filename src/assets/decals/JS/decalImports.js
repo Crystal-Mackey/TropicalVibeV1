@@ -20,7 +20,7 @@ import decal19 from '../JustTheTipBullet.png';
 import decal20 from '../MaleBeerBringingSexyBack.png';
 import decal21 from '../MoneyWellWasted.png';
 import decal22 from '../MooseAxeBearTreeArrow.png';
-// import decal23 from '../';
+import decal23 from '../FireManFightingEmptyGasTank.jpg';
 import decal24 from '../MyBroomIsInTheShop.png';
 import decal25 from '../RustezeBumperOintment.png';
 import decal26 from '../SkeletonMiddleFinger.png';
@@ -77,7 +77,7 @@ const decals = [
   { id: 20, src: decal20, alt: 'Male with Beer Belly "bringing sexy back"', tags: ['male', 'beer belly', 'bringing sexy back', 'humor', 'funny', 'decal', 'sticker', 'graphic', 'novelty', 'design', 'chubby', 'big guy', 'white'], backgroundColor: 'black', closeColor: 'white' },
   { id: 21, src: decal21, alt: 'Money Well Wasted', tags: ['money', 'well wasted', 'humor', 'funny', 'decal', 'sticker', 'novelty', 'graphic', 'design', 'quote', 'green', 'black'], backgroundColor: 'white', closeColor: 'black' },
   { id: 22, src: decal22, alt: 'Crossed arrows with each gap having either a moose, bear, tree, or an axe', tags: ['crossed arrows', 'moose', 'bear', 'tree', 'axe', 'ax', 'decal', 'sticker', 'outdoor', 'nature', 'wilderness', 'white'], backgroundColor: 'black', closeColor: 'white' },
-  // { id: 23, src: decal23, alt: '', tags: [], backgroundColor: 'white', closeColor: 'black' },
+  { id: 23, src: decal23, alt: 'Stick Man with a head that appears to be on fire pulling gas gauge away from empty', tags: ['stick man', 'head on fire', 'gas gauge', 'away from empty', 'decal', 'sticker', 'graphic', 'design', 'funny', 'novelty'], backgroundColor: 'white', closeColor: 'black' },
   { id: 24, src: decal24, alt: '"My Broom is in the shop" witch broom', tags: ['my broom is in the shop', 'witch', "witch's", 'broom', 'humor', 'funny', 'decal', 'sticker', 'novelty', 'graphic', 'design', 'white'], backgroundColor: 'black', closeColor: 'white' },
   { id: 25, src: decal25, alt: 'Rusteze Bumper Oil Ointment', tags: ['Rusteze', 'bumper ointment', 'oil', 'decal', 'sticker', 'funny', 'humor', 'novelty', 'graphic', 'design', 'Cars', 'Disney', 'Animated'], backgroundColor: 'white', closeColor: 'black' },
   { id: 26, src: decal26, alt: 'Skeleton Hand raising middle finger only', tags: ['skeleton', 'hand', 'middle finger', 'fuck off', 'flipping off','gesture', 'decal', 'sticker', 'graphic', 'design', 'humor', 'funny'], backgroundColor: 'black', closeColor: 'white' },

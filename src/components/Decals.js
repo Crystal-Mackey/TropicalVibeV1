@@ -40,7 +40,7 @@ const Decals = () => {
           <div
             key={decal.id}
             className="gallery-item"
-            style={{ backgroundColor: decal.backgroundColor }}
+            data-background={decal.backgroundColor}
             onClick={() => openModal(decal)}
           >
             <img src={decal.src} alt={decal.alt} />

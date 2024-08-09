@@ -35,7 +35,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: inherit; /* Inherit the background color from the parent */
+  background-color: inherit; /* Default to inherit for unknown background */
+}
+
+.gallery-item[data-background="white"] {
+  background-color: white;
+}
+
+.gallery-item[data-background="black"] {
+  background-color: black;
 }
 
 .gallery-item img {
@@ -48,15 +56,6 @@
 
 .gallery-item:hover img {
   transform: scale(1.05); /* Slightly scale on hover */
-}
-
-
-.gallery-item[data-background="white"] {
-  background-color: white !important;
-}
-
-.gallery-item[data-background="black"] {
-  background-color: black !important;
 }
 
 .modal {
@@ -102,4 +101,15 @@
   font-size: 24px;
   font-weight: bold;
   cursor: pointer;
+  color: inherit; /* Ensure the close button color adapts to the content */
+}
+
+@media (max-width: 767px) { /* Mobile-specific styles */
+  .gallery-item[data-background="white"] {
+    background-color: white;
+  }
+
+  .gallery-item[data-background="black"] {
+    background-color: black;
+  }
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import '../styles/Gallery.css';
 
 function Gallery({ images }) {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -13,7 +13,7 @@ function Gallery({ images }) {
   };
 
   return (
-    <div>
+    <div id="gallery">
       <div className="gallery-grid">
         {images.map((image, index) => (
           <img
@@ -28,14 +28,14 @@ function Gallery({ images }) {
 
       {selectedImage && (
         <div className="modal" onClick={closeModal}>
-          <img src={selectedImage.src} alt={selectedImage.alt} className="modal-content" />
-          <span className="close">&times;</span>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <img src={selectedImage.src} alt={selectedImage.alt} />
+            <span className="close" onClick={closeModal}>&times;</span>
+          </div>
         </div>
       )}
     </div>
   );
 }
-
-
 
 export default Gallery;

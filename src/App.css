@@ -21,7 +21,7 @@ html, body, #root {
 }
 
 .hero-logo {
-  max-width: 150px; /* Adjust size as needed */
+  max-width: 500px; /* Adjust size as needed */
   height: auto;
 }
 
@@ -44,6 +44,14 @@ html, body, #root {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Main page gallery section */
+.gallery {
+  width: 100%;
+  padding: 20px;
+  color: white;
+  background-color: black; /* Black background for the gallery */
 }
 
 .modal {
@@ -75,17 +83,7 @@ html, body, #root {
 }
 
 
-.gallery-footer-container {
-  background: url('../src/assets/tropical/beach.jpg') no-repeat center center;
-  background-size: cover;
-}
 
-/* Main page gallery section */
-#gallery {
-  padding: 20px;
-  color: white;
-  background-color: black; /* Black background for the gallery */
-}
 
 /* Footer section */
 .footer {

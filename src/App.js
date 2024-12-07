@@ -16,7 +16,10 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<div><HeroSection /><AboutUs /><Services /><Gallery images={images} /></div>} />
+          <Route path="/" element={<div><HeroSection />
+          <AboutUs />
+          <Services />
+          <Gallery images={images} /></div>} />
           <Route path="/decals" element={<Decals />} />
         </Routes>
         <Footer />

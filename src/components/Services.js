@@ -41,6 +41,14 @@ const Services = () => {
             <p>Aircraft Tinting</p>
             <p>Our tinting services enhance privacy, reduce glare, and provide UV protection, while our wrapping services offer a unique and stylish look for your vehicle, boat, or building.</p>
           </div>
+          <div className="services-section">
+            <h3>Decals and Windows</h3>
+            <p>Custom Design Services</p>
+            <p>Premade Designs to Choose from</p>
+            <p>Perforated one way windows</p>
+            <p>Vinyl solid decals and windows</p>
+            <p>Custom Magnets for your vehicle, home or business</p>
+          </div>
         </div>
       </div>
     </section>

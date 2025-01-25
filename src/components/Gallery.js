@@ -13,7 +13,7 @@ function Gallery({ images }) {
   };
 
   return (
-    <div id="gallery">
+    <div className="gallery">
       <div className="gallery-grid">
         {images.map((image, index) => (
           <img

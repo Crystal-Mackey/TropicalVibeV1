@@ -19,7 +19,8 @@ function App() {
           <Route path="/" element={<div><HeroSection />
           <AboutUs />
           <Services />
-          <Gallery images={images} /></div>} />
+          <section id="gallery">
+          <Gallery images={images} /></section></div>} />
           <Route path="/decals" element={<Decals />} />
         </Routes>
         <Footer />

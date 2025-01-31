@@ -23,8 +23,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 10px;
-  width: 100%;
-  max-width: 1200px; /* Adjust this to control the max width of the grid */
+  padding: 30px;
+  width: 97%;
+  max-width: 100%; /* Adjust this to control the max width of the grid */
 }
 
 .gallery-item {

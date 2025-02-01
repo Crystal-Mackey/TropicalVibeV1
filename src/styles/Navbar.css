@@ -2,9 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0;
   background-color: #222;
   color: white;
+  position: fixed; /* Keeps navbar on top */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures navbar is above other content */
 }
 
 .navbar-logo {
@@ -15,6 +20,7 @@
 .navbar-links {
   display: flex;
   list-style: none;
+  padding-right: 30px;
 }
 
 .navbar-links li {
@@ -27,6 +33,7 @@
   font-size: 1.2rem;
 }
 
+/* Hamburger Button */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -51,11 +58,16 @@
     position: absolute;
     top: 70px;
     right: 0;
-    background-color: #222;
     width: 100%;
+    height: auto; /* Makes the menu cover the full screen */
+    background-color: rgba(34, 34, 34, 0.95);
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     display: none;
+    z-index: 1000; /* Ensures dropdown appears above content */
+    padding: 20px 0; /* Adds space for bottom link */
+    overflow-y: auto; /* Enables scrolling if needed */
   }
 
   .navbar-links.open {
@@ -71,6 +83,8 @@
   .navbar-links a {
     width: 100%;
     display: block;
+    padding: 15px;
+    font-size: 1.5rem;
   }
 
   /* Animate the hamburger icon */

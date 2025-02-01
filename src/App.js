@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Services from "./components/Services";
 import images from "./assets/images/images";
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Navbar />
       <section id="home">
-        <Hero/>
+       <Home/>
       </section>
       <section id="about">
         <AboutUs />

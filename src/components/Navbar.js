@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Tropical Vibe Detailing/Tints/Wraps/Customs</div>
+      <div className="navbar-logo">Tropical Vibe</div>
       
       {/* Hamburger Icon */}
       <div className="hamburger" onClick={toggleMenu}>

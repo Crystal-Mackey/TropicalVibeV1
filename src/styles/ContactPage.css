@@ -1,0 +1,49 @@
+.contact-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .business-info {
+    margin-top: 40px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .business-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .business-info p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  /* ✅ Clickable Links Styling */
+  .clickable-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .clickable-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  /* Google Maps Embed */
+  .map-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  

@@ -1,30 +1,39 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HeroSection from './components/HeroSection';
-import AboutUs from './components/AboutUs';
-import Services from './components/Services';
-import Gallery from './components/Gallery';
-import Decals from './components/Decals';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import AboutUs from "./pages/AboutUs";
+import Services from "./components/Services";
 import images from "./assets/images/images";
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import './App.css';
+import Gallery from "./pages/Gallery";
+import BackToTop from "./components/BackToTop";
+import ContactPage from "./pages/ContactPage";
+import Footer from "./components/Footer";
+import "./styles/global.css";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<div><HeroSection />
-          <AboutUs />
-          <Services />
-          <Gallery images={images} /></div>} />
-          <Route path="/decals" element={<Decals />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <Navbar />
+      <section id="home">
+        <Hero/>
+      </section>
+      <section id="about">
+        <AboutUs />
+      </section>
+      <section id="services">
+        <Services/>
+      </section>
+      <section id="gallery">
+        <Gallery images={images}/>
+      </section>
+      <section id="contact">
+        <ContactPage/>
+      </section>
+      <section id="footer">
+        <Footer/>
+      </section>
+      <BackToTop />
+    </div>
   );
 }
 

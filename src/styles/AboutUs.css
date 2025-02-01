@@ -1,22 +1,20 @@
-.about-us {
+section {
+  padding: 60px 20px;
   background-color: #000000;
-  padding: 20px;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
+#home {
+  background-color: #000000;
+  color: white;
   text-align: center;
 }
 
-h2 {
-  color: #333;
-  margin-bottom: 10px;
-  font-weight: 700; /* Thicker font weight */
+#about, #services, #contact {
+  background-color: #000000;
+  color: #ffffff;
 }
 
-p {
-  color: #666;
-  margin-bottom: 15px;
-  font-weight: 500; /* Thicker font weight */
+section h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }

@@ -37,9 +37,10 @@
 
 .modal-content {
   position: relative;
-  max-width: 50%; /* Limits the width of the modal to 90% of the viewport */
-  max-height: 50%; /* Limits the height of the modal to 90% of the viewport */
+  max-width: 50%; /* Limits the width of the modal to 50% of the viewport */
+  max-height: 50%; /* Limits the height of the modal to 50% of the viewport */
   background-color: black;
+  text-align: center;
 }
 
 .modal-content img {
@@ -62,4 +63,29 @@
   background-color: rgba(0, 0, 0, 0.5); /* Optional background for visibility */
   padding: 5px;
   border-radius: 50%;
+}
+
+/* Navigation Buttons */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }

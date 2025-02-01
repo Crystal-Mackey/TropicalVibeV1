@@ -23,34 +23,36 @@
 
 /* Modal Styles */
 .modal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.8);
   position: fixed;
   top: 0;
   left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8); /* Optional: dark overlay for contrast */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 1000;
+  overflow: hidden; /* Prevents scrolling */
 }
 
-/* Ensure the modal content is positioned properly */
 .modal-content {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 60%;
-  max-height: 80%;
+  max-width: 80vw; /* Limits the modal width to 80% of the viewport width */
+  max-height: 80vh; /* Limits the modal height to 80% of the viewport height */
   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Ensure the image is properly centered */
 .modal-content img {
-  max-width: 100%;
-  max-height: 100%;
+  width: auto; /* Maintain the aspect ratio */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 100%; /* Ensures the image doesn't overflow the modal */
+  max-height: 100%; /* Ensures the image doesn't overflow the modal */
   display: block;
+  margin: auto; /* Centers the image within the modal */
 }
 
 .close {
@@ -74,18 +76,18 @@
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
-  padding: 15px;
+  padding: 10px;
   cursor: pointer;
   font-size: 24px;
   z-index: 1001;
 }
 
 .prev {
-  left: -50px; /* Moves the button more towards the outer side */
+  left: 10px;
 }
 
 .next {
-  right: -50px; /* Moves the button more towards the outer side */
+  right: 10px;
 }
 
 .prev:hover, .next:hover {

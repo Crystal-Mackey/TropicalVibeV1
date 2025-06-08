@@ -8,9 +8,9 @@ import image7 from "./image7.jpg";
 import image8 from "./image8.jpg";
 import image9 from "./image9.jpg";
 import image10 from "./image10.jpg";
-import image11 from "./image11.jpg";
+// import image11 from "./image11.jpg";
 import image12 from "./image12.jpg";
-import image13 from "./image13.jpg";
+// import image13 from "./image13.jpg";
 import image14 from "./image14.jpg";
 import image15 from "./image15.jpg";
 import image16 from "./image16.jpg";
@@ -86,6 +86,10 @@ import image85 from "./2025Images/image85.jpg";
 import image86 from "./2025Images/image86.jpg";
 import image87 from "./2025Images/image87.jpg";
 import image88 from "./2025Images/image88.jpg";
+import image89 from "./2025Images/image89.jpg";
+import image90 from "./2025Images/image90.jpg";
+import image91 from "./2025Images/image91.jpg";
+import image92 from "./2025Images/image92.jpg";
 import vid1 from "./video1.mp4";
 import vid2 from "./video2.mp4";
 import vid3 from "./video3.mp4";
@@ -95,56 +99,56 @@ import vid5 from "./video5.mp4";
 const images = [
   {
     src: image1,
-    alt: 'Description of image 1',
+    alt: 'Detailing Or Tint or Decal Picture',
   },
   {
     src: image2,
-    alt: 'Description of image 2',
+    alt: 'Detailing Or Tint or Decal Picture',
   },
   {
     src: image3,
-    alt: 'Description of image 3',
+    alt: 'Detailing Or Tint or Decal Picture',
   },
   {
     src: image4,
-    alt: 'Description of image 4',
+    alt: 'Detailing Or Tint or Decal Picture',
   },
   {
     src: image5,
-    alt: 'Description of image 5',
+    alt: 'Detailing Or Tint or Decal Picture',
   },
   {
     src: image6,
-    alt: 'Description of image 6',
+    alt: 'Detailing Or Tint or Decal Picture',
   },
   {
     src: image7,
-    alt: 'Description of image 7',
+    alt: 'Detailing Or Tint or Decal Picture',
   },
   {
     src: image8,
-    alt: 'Description of image 8',
+    alt: 'Detailing Or Tint or Decal Picture',
   },
   {
     src: image9,
-    alt: 'Description of image 9',
+    alt: 'Detailing Or Tint or Decal Picture',
   },
   {
     src: image10,
-    alt: 'Description of image 10',
+    alt: 'Detailing Or Tint or Decal Picture',
   },
-  {
-    src: image11,
-    alt: 'Description of image 11',
-  },
+  // {
+  //   src: image11,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
   {
     src: image12,
     alt: 'Detailing Or Tint or Decal Picture',
   },
-  {
-    src: image13,
-    alt: 'Detailing Or Tint or Decal Picture',
-  },
+  // {
+  //   src: image13,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
   {
     src: image14,
     alt: 'Detailing Or Tint or Decal Picture',
@@ -445,22 +449,22 @@ const images = [
     src: image88,
     alt: 'Detailing Or Tint or Decal Picture',
   },
-  // {
-  //   src: image89,
-  //   alt: 'Detailing Or Tint or Decal Picture',
-  // },
-  // {
-  //   src: image90,
-  //   alt: 'Detailing Or Tint or Decal Picture',
-  // },
-  // {
-  //   src: image91,
-  //   alt: 'Detailing Or Tint or Decal Picture',
-  // },
-  // {
-  //   src: image92,
-  //   alt: 'Detailing Or Tint or Decal Picture',
-  // },
+  {
+    src: image89,
+    alt: 'Detailing Or Tint or Decal Picture',
+  },
+  {
+    src: image90,
+    alt: 'Detailing Or Tint or Decal Picture',
+  },
+  {
+    src: image91,
+    alt: 'Detailing Or Tint or Decal Picture',
+  },
+  {
+    src: image92,
+    alt: 'Detailing Or Tint or Decal Picture',
+  },
   // {
   //   src: image93,
   //   alt: 'Detailing Or Tint or Decal Picture',

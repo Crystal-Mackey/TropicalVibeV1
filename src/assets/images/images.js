@@ -81,6 +81,11 @@ import image80 from "./image80.jpg";
 import image81 from "./image81.jpg";
 import image82 from "./image82.jpg";
 import image83 from "./image83.jpg";
+import image84 from "./2025Images/image84.jpg";
+import image85 from "./2025Images/image85.jpg";
+import image86 from "./2025Images/image86.jpg";
+import image87 from "./2025Images/image87.jpg";
+import image88 from "./2025Images/image88.jpg";
 import vid1 from "./video1.mp4";
 import vid2 from "./video2.mp4";
 import vid3 from "./video3.mp4";
@@ -420,6 +425,194 @@ const images = [
     src: image83,
     alt: 'Detailing Or Tint or Decal Picture',
   },
+  {
+    src: image84,
+    alt: 'Detailing Or Tint or Decal Picture',
+  },
+  {
+    src: image85,
+    alt: 'Detailing Or Tint or Decal Picture',
+  },
+  {
+    src: image86,
+    alt: 'Detailing Or Tint or Decal Picture',
+  },
+  {
+    src: image87,
+    alt: 'Detailing Or Tint or Decal Picture',
+  },
+  {
+    src: image88,
+    alt: 'Detailing Or Tint or Decal Picture',
+  },
+  // {
+  //   src: image89,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image90,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image91,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image92,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image93,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image94,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image95,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image96,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image97,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image98,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image99,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image100,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image101,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image102,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image103,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image104,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image105,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image106,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image107,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image108,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image109,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image110,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image111,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image112,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image113,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image114,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image115,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image116,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image117,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image118,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image119,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image120,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image121,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image122,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image123,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image124,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image125,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image126,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image127,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image128,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image129,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
+  // {
+  //   src: image130,
+  //   alt: 'Detailing Or Tint or Decal Picture',
+  // },
   // {
   //   src: vid1,
   //   type: 'video',

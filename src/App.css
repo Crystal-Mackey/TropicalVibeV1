@@ -6,35 +6,6 @@ html, body, #root {
   overflow-x: hidden;
 }
 
-.hero-section {
-  text-align: center;
-  padding: 20px;
-  background: black; /* Set background to black */
-  color: white; /* Set text color to white */
-}
-
-.logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.hero-logo {
-  max-width: 500px; /* Adjust size as needed */
-  height: auto;
-}
-
-.hero-section h1 {
-  margin: 20px 0 10px;
-}
-
-.hero-section p {
-  margin: 0;
-}
-
-
-
 /* Footer section */
 .footer {
   background-color: black; /* Black background for the footer */

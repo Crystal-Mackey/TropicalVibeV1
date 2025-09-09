@@ -5,8 +5,7 @@ import "../styles/Footer.css";
 const Footer = ({ contactInfo }) => {
   return (
     <footer>
-      <p>Powered by</p>
-      <img src={DesignLogo} alt="Max Artistry Designs Logo" className="footer-logo" />
+   ©️Tropical Vibe Detailing/Tints/Wraps/Customs
     </footer>
   );
 };

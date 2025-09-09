@@ -20,6 +20,8 @@ const Home = () => {
       </div>
       <h1>Welcome to Our Shop</h1>
       <p>Your one-stop solution for auto detailing, tints, wraps and custom designs and decals.</p>
+      <br/>
+      <p>Awarded Shop of the Year for 2025</p>
     </div>
   );
 };
